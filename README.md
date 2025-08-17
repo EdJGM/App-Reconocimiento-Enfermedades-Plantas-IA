@@ -245,11 +245,6 @@ python -m pytest tests/
 
 Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
-## 👥 Autores
-
-- **Desarrollador Principal** - [Tu Nombre]
-- **Equipo de ML** - [Nombres del equipo]
-
 ## 🙏 Agradecimientos
 
 - Dataset de enfermedades de plantas de Kaggle
