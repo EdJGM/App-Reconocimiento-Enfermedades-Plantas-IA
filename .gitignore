@@ -1,0 +1,439 @@
+# ===========================
+# FLUTTER PROJECT GITIGNORE
+# ===========================
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter build artifacts
+/rec_enfermedades_plantas_ia/build/
+/rec_enfermedades_plantas_ia/.dart_tool/
+/rec_enfermedades_plantas_ia/.flutter-plugins
+/rec_enfermedades_plantas_ia/.flutter-plugins-dependencies
+/rec_enfermedades_plantas_ia/.packages
+/rec_enfermedades_plantas_ia/.pub-cache/
+/rec_enfermedades_plantas_ia/.pub/
+/rec_enfermedades_plantas_ia/ios/Flutter/flutter_export_environment.sh
+/rec_enfermedades_plantas_ia/ios/Flutter/Generated.xcconfig
+/rec_enfermedades_plantas_ia/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android specific
+/rec_enfermedades_plantas_ia/android/app/build/
+/rec_enfermedades_plantas_ia/android/app/profile/
+/rec_enfermedades_plantas_ia/android/app/release/
+/rec_enfermedades_plantas_ia/android/build/
+/rec_enfermedades_plantas_ia/android/gradle/
+/rec_enfermedades_plantas_ia/android/gradlew
+/rec_enfermedades_plantas_ia/android/gradlew.bat
+/rec_enfermedades_plantas_ia/android/local.properties
+/rec_enfermedades_plantas_ia/android/key.properties
+
+# iOS specific
+/rec_enfermedades_plantas_ia/ios/Pods/
+/rec_enfermedades_plantas_ia/ios/Runner.xcworkspace/xcuserdata/
+/rec_enfermedades_plantas_ia/ios/Runner.xcodeproj/xcuserdata/
+/rec_enfermedades_plantas_ia/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+/rec_enfermedades_plantas_ia/ios/Flutter/flutter_export_environment.sh
+
+# Web specific
+/rec_enfermedades_plantas_ia/web/
+
+# Windows specific
+/rec_enfermedades_plantas_ia/windows/flutter/ephemeral/
+
+# macOS specific
+/rec_enfermedades_plantas_ia/macos/Flutter/ephemeral/
+
+# Linux specific
+/rec_enfermedades_plantas_ia/linux/flutter/ephemeral/
+
+# ===========================
+# PYTHON BACKEND GITIGNORE
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyCharm
+#  project, it is recommended to ignore the entire .idea directory.
+.idea/
+
+# Backend specific
+/rec_enfermedades_plantas_ia_backend/__pycache__/
+/rec_enfermedades_plantas_ia_backend/.env
+/rec_enfermedades_plantas_ia_backend/venv/
+/rec_enfermedades_plantas_ia_backend/env/
+/rec_enfermedades_plantas_ia_backend/.venv/
+/rec_enfermedades_plantas_ia_backend/uploads/
+/rec_enfermedades_plantas_ia_backend/temp/
+/rec_enfermedades_plantas_ia_backend/logs/
+/rec_enfermedades_plantas_ia_backend/*.log
+
+# ===========================
+# MACHINE LEARNING GITIGNORE
+# ===========================
+
+# Jupyter Notebook checkpoints
+/rec_enfermedades_plantas_ia_model/.ipynb_checkpoints/
+
+# Large model files (uncomment if you want to exclude them)
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pickle
+# *.joblib
+
+# TensorFlow specific
+*.pb
+/rec_enfermedades_plantas_ia_model/logs/
+/rec_enfermedades_plantas_ia_model/checkpoints/
+/rec_enfermedades_plantas_ia_model/saved_models/
+
+# Dataset files (large files)
+/rec_enfermedades_plantas_ia_model/datasets/
+/rec_enfermedades_plantas_ia_model/data/
+/rec_enfermedades_plantas_ia_model/images/
+
+# Training outputs
+/rec_enfermedades_plantas_ia_model/training_output/
+/rec_enfermedades_plantas_ia_model/plots/
+/rec_enfermedades_plantas_ia_model/results/
+
+# ===========================
+# GENERAL PROJECT GITIGNORE
+# ===========================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.sublime-*
+*.atom
+
+# Node.js (if any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Documentation build
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+*.cover
+.nyc_output
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Security and sensitive files
+*.key
+*.pem
+*.crt
+*.csr
+secrets.json
+config.local.json
+firebase-adminsdk-*.json
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Git
+.git/
+.gitmodules
+
+# Large files and databases
+*.sqlite
+*.db
+*.sql
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Generated files
+generated/
+auto_generated/
+
+# Platform specific
+# Windows
+*.exe
+*.msi
+*.dll
+
+# macOS
+*.dmg
+*.app
+
+# Linux
+*.deb
+*.rpm
+*.AppImage
+
+# Mobile specific
+# Android
+*.apk
+*.aab
+*.keystore
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Flutter web
+web/
+
+# Test images and uploads (keep structure but ignore content)
+/test_images/
+/uploads/
+/temp_uploads/
+/sample_data/
+
+# API keys and tokens
+api_keys.txt
+tokens.json
+credentials.json
+kaggle.json
+
+# Logs
+*.log
+logs/
+log/
+
+# Performance monitoring
+.lighthouseci/
+
+# Dependency directories specific to project structure
+/rec_enfermedades_plantas_ia/ios/Pods/
+/rec_enfermedades_plantas_ia/android/.gradle/
+/rec_enfermedades_plantas_ia/android/app/build/
+/rec_enfermedades_plantas_ia/android/build/
